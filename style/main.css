@@ -1,0 +1,33 @@
+h1, p {
+ font-family: 'Great Vibes', cursive;
+ color: olivedrab;
+}
+
+p {
+ font-size: 30px;
+}
+
+h1 {
+ font-size: 60px;  
+}
+
+body {
+ background-color: #98FB98;
+}
+
+#avantage {
+    width: 20%;
+    position: absolute; top: 530px; left: 80px;
+    
+}
+
+#inconveniant { 
+    width: 20%; 
+    position: absolute; top: 800px; left: 1000px;
+}
+
+#difference {
+    display: flex;
+    
+}
+

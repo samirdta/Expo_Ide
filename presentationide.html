@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+ <link rel="stylesheet" type="text/css" href="style/main.css" />
+ <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"/>
+
+</head>
+
+<body>
+   <header>
+       <h1>Exposé Brackets vs Codelite</h1>
+
+    <p><strong>Bonjour nous sommes le :</strong></br>
+    <strong>il est :</strong> </p>
+
+    <img id="brackets" src="brackets.png" style="border-radius: 15%; align: center; float: left;"/>
+    <img id="codelite" src="codelite.jpeg" style="border-radius: 15%; align: center; float: right;"/>
+   </header>
+    <div id="difference">
+
+    <div id="+">
+    <p>BLABLABLIBLABLABLA</p>
+    <img id="avantage" src="style/user-2.svg"/>
+    </div>
+    <div id="-"><img id="inconveniant" src="style/user-1.svg"/></div>
+
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+ $(document).ready(function(){
+     setInterval(ajaxcall, 1000);
+ });
+ function ajaxcall(){
+     $.ajax({
+         url: 'gettime.php',
+         success: function(data) {
+             data = data.split(':');
+             $('#hours').html(data[0]);
+             $('#minutes').html(data[1]);
+             $('#seconds').html(data[2]);
+         }
+     });
+ }
+</script>
+<span> Nous sommes le <?php echo date ('d/m/Y') ?> ,  Il est </span>
+<span id="hours">0</span>:<span id="minutes">0</span>:<span id="seconds">0</span>
+</body>
+
+
+
+
+
+</html>
