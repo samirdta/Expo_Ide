@@ -1,9 +1,21 @@
+p {
+ float: center;
+}
+
+
+span {
+  color: #FBFF13;
+  font-family: 'Great Vibes', cursive;
+}
+
+
+
 h1, p {
  font-family: 'Great Vibes', cursive;
  color: olivedrab;
 }
 
-p {
+p, span{
  font-size: 30px;
 }
 
