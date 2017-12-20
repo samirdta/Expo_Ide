@@ -1,0 +1,20 @@
+Les fonctionnalités de Codlite
+
+L'interface propose plusieurs fonctionnalités assez simple a prendre en main,
+on trouve celle deja presente dans tout les ide:
+création de nouveau fichier et dossier, enregistrement, impression, undo et redo,rechercher, remplacer , etc....
+avec la possibilité de les utiliser dans un Output Wiew avec d'autre fonctionnalités.
+Cette éditeur dispose de la coloration synthaxique, de l'auto-complétion, de plusieurs themes différents pour personnalisé l'apparence
+comme Monokai_2, roboticket, classic eclipse, etc... .
+
+Cet ide est completement configurable, l'ajout de différents plugin permet de configuré et de facilité sont utilisation,
+un live preview est aussi disponible ; il est possible de le configurer pour le debug du code en PHP.
+
+Les espaces de travail sont créer sous forme de dossiers avec une perspective(layout) qui permet de modifié son apparence
+
+une barre coloré est affiché sur le coté de l'éditeur lors de la frappe et permet de voir les lignes qui ont été modifié avant l'enregistrement
+cela ajoute un visuel des modifications. une fois enregistrer la barre lateral est de couleur uniforme (vert).
+
+un lien avec git permet aussi de push les codes vers un repository sans ouvrir de client comme smartgit ou meme directement sur Github(attention tout de même a cette fonctionnalité)
+
+pour finir, cette ide est assez simple a utilisé après l'avoir pris en main, les liens vers d'autres logiciels est un plus.
